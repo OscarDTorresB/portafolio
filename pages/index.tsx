@@ -9,7 +9,14 @@ const Home: NextPage = () => {
         <meta name="description" content="Oscar's Portfolio" />
       </Head>
       <div className="container">
-        Hi there!
+        <h1 className="title">
+          Hi there! 👋
+        </h1>
+        <p className="">
+          I&apos;m Oscar, a software engineer, I&apos;ve been working with web
+          development for over a year now, building applications with React
+          and Next.js.
+        </p>
       </div>
     </>
   )

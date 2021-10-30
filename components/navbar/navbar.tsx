@@ -20,8 +20,8 @@ const Navbar: NextPage = () => {
   ];
 
   return (
-    <header>
-      <nav className="sticky top-0 container mx-auto py-2 px-4 bg-white font-semibold shadow-md border-b-2 border-blue-400">
+    <header className="sticky top-0 mx-auto py-2 px-4 bg-white font-semibold shadow-md border-b-2 border-blue-400">
+      <nav className="max-w-screen-xl mx-auto">
         <div className="flex flex-col md:flex-row md:justify-between items-center">
           <div className="flex items-center">
             <Link href="/">
@@ -37,10 +37,10 @@ const Navbar: NextPage = () => {
               </a>
             </Link>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4">
             {routes.map((route) => (
               <Link href={route.href} key={route.name}>
-                <a className={`transition-colors ease-in-out duration-500 bg-gray-600 bg-clip-text text-transparent hover:bg-blue-600 ${route.active ? 'underline bg-blue-700' : ''}`}>
+                <a className={`transition-colors ease-in-out duration-500 bg-gray-600 bg-clip-text text-transparent hover:bg-blue-500 ${route.active ? 'bg-blue-700 hover:bg-blue-700' : ''}`}>
                   <span>{route.name}</span>
                 </a>
               </Link>

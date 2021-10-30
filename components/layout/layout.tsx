@@ -8,7 +8,7 @@ const Layout: NextPage = ({ children }) => {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="w-screen h-screen">
+      <div>
         <Navbar />
         <main className="px-4 py-2 max-h-full max-w-screen-xl mx-auto">
           {children}

@@ -19,8 +19,8 @@ body {
   @apply text-gray-700;
 }
 
-.title {
-  @apply text-2xl font-semibold my-2;
+.separator {
+  @apply border-t-2 border-gray-300 my-10;
 }
 
 .blue-link {

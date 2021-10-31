@@ -2,12 +2,16 @@ import { NextPage } from 'next';
 
 const Contact: NextPage = () => {
   return (
-    <div>
-      <h1>Contact</h1>
+    <div className="my-10 mx-auto w-max">
+      <h1 className="text-5xl font-bold">
+        I&apos;m still working on this page. 😅
+      </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-        quaerat, doloremque, quisquam, quidem quia quisquam doloremque
-        dignissimos.
+        If you&apos;d like to get in touch, please send me an email at{' '}
+        <a href="mailto:oscardtorres@hotmail.com" className="text-blue-400 hover:text-blue-600">
+          my email address
+        </a>
+        .
       </p>
     </div>
   );

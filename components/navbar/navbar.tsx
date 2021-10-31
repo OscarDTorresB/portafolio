@@ -8,12 +8,7 @@ const Navbar: NextPage = () => {
   const router = useRouter();
   const routes = [
     {
-      name: 'About',
-      href: '/about',
-      active: router.asPath === '/about'
-    },
-    {
-      name: 'Contact',
+      name: 'Say Hello',
       href: '/contact',
       active: router.asPath === '/contact'
     }
@@ -40,8 +35,10 @@ const Navbar: NextPage = () => {
           <div className="flex items-center gap-4">
             {routes.map((route) => (
               <Link href={route.href} key={route.name}>
-                <a className={`transition-colors ease-in-out duration-500 bg-gray-600 bg-clip-text text-transparent hover:bg-blue-500 ${route.active ? 'bg-blue-700 hover:bg-blue-700' : ''}`}>
-                  <span>{route.name}</span>
+                <a className="group transition-colors ease-in-out duration-500 bg-white hover:bg-blue-500 border-2 border-blue-300 px-4 py-2 rounded-full">
+                  <span className={`transition-colors ease-in-out duration-500 bg-gray-600 bg-clip-text text-transparent group-hover:bg-white ${route.active ? 'bg-blue-700 group-hover:bg-blue-700' : ''}`}>
+                    {route.name}
+                  </span>
                 </a>
               </Link>
             ))}

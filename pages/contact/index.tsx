@@ -2,7 +2,7 @@ import { NextPage } from 'next';
 
 const Contact: NextPage = () => {
   return (
-    <div className="my-10 mx-auto w-max">
+    <div className="my-10 mx-auto w-max max-w-full">
       <h1 className="text-5xl font-bold">
         I&apos;m still working on this page. 😅
       </h1>

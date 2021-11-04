@@ -24,6 +24,7 @@ const Home: NextPage = () => {
         <Image
           src={SystemsImage}
           alt="A computer with a bunch of screens"
+          priority
         />
       </div>
       <hr className="separator" />
@@ -74,10 +75,10 @@ const Home: NextPage = () => {
               </td>
             </tr>
             <tr>
-              <td className="text-center px-4 md:px-8 pt-10 pb-4 text-purple-500 font-semibold">
+              <td className="text-center px-4 md:px-8 pt-10 pb-4 text-blue-600 font-semibold">
                 Languages I&apos;ve worked with:
               </td>
-              <td className="text-center px-4 md:px-8 pt-10 pb-4 text-purple-500 font-semibold">
+              <td className="text-center px-4 md:px-8 pt-10 pb-4 text-blue-600 font-semibold">
                 Languages I&apos;ve worked with:
               </td>
             </tr>
@@ -90,10 +91,10 @@ const Home: NextPage = () => {
               </td>
             </tr>
             <tr>
-              <td className="text-center px-4 md:px-8 pt-10 pb-4 text-purple-500 font-semibold">
+              <td className="text-center px-4 md:px-8 pt-10 pb-4 text-blue-600 font-semibold">
                 Development Tools:
               </td>
-              <td className="text-center px-4 md:px-8 pt-10 pb-4 text-purple-500 font-semibold">
+              <td className="text-center px-4 md:px-8 pt-10 pb-4 text-blue-600 font-semibold">
                 Development Tools:
               </td>
             </tr>

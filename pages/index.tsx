@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <h1 className="text-6xl font-semibold">
           Front-end Developer
         </h1>
-        <h2 className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent font-medium">
+        <h2 className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent font-medium animate-fade-in-from-left">
           I code beautifully, simple, and performant web applications.
         </h2>
       </section>
@@ -40,7 +40,7 @@ const Home: NextPage = () => {
           continue to learn and grow as a developer one line of code at a time.
         </p>
       </section>
-      <section className="max-w-4xl mx-auto border-2 shadow rounded-lg my-20">
+      <section className="max-w-4xl mx-auto border shadow-sm rounded-lg my-20">
         <table className="w-full mt-10 mb-20">
           <thead>
             <tr>

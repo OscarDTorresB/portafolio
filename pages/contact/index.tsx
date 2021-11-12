@@ -8,7 +8,7 @@ const Contact: NextPage = () => {
         <title>Contact me - Oscar&apos;s portfolio</title>
         <meta name="description" content="Contact me to discuss about software development." />
       </Head>
-      <div className="my-10 mx-auto w-max max-w-full">
+      <div className="my-10 mx-auto w-max max-w-full animate-fade-in">
         <h1 className="text-5xl font-bold">
           I&apos;m still working on this page. 😅
         </h1>

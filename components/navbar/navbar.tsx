@@ -15,7 +15,7 @@ const Navbar: NextPage = () => {
   ];
 
   return (
-    <header className="sticky top-0 mx-auto py-2 px-4 bg-white font-semibold shadow-md border-b-2 border-blue-400 z-40">
+    <header className="mx-auto py-2 px-4 bg-white font-semibold shadow-md border-b-2 border-blue-400 z-40">
       <nav className="max-w-screen-xl mx-auto">
         <div className="flex flex-col md:flex-row md:justify-between items-center">
           <div className="flex items-center">

@@ -1,6 +1,5 @@
 import { NextPage } from "next"
 import Head from "next/head"
-import Script from "next/script"
 import Navbar from "components/navbar/navbar"
 
 const Layout: NextPage = ({ children }) => {
@@ -20,19 +19,6 @@ const Layout: NextPage = ({ children }) => {
         <meta name="twitter:description" content="Are you looking for a front end developer? you found it in this amazing front end portfolio, Oscar Torres will surprise you." />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-4HCMXQFQMY"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-4HCMXQFQMY');
-        `}
-      </Script>
       <div>
         <Navbar />
         <main className="px-4 py-2 max-h-full max-w-screen-xl mx-auto">

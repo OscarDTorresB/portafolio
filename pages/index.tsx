@@ -1,3 +1,4 @@
+import Companies from 'components/companies/companies'
 import SkillsTable from 'components/skillsTable/skillsTable'
 import type { NextPage } from 'next'
 import Head from 'next/head'
@@ -40,6 +41,12 @@ const Home: NextPage = () => {
         </p>
       </section>
       <SkillsTable />
+      <section className="container max-w-full w-max mx-auto mt-20 px-4">
+        <h2 className="text-center font-bold text-3xl max-w-2xl mx-auto">
+          I&apos;m proud to have worked with these wonderful companies:
+        </h2>
+        <Companies />
+      </section>
     </>
   )
 }

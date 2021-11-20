@@ -1,6 +1,7 @@
 import { NextPage } from "next"
 import Head from "next/head"
 import Navbar from "components/navbar/navbar"
+import Footer from "components/Footer/footer"
 
 const Layout: NextPage = ({ children }) => {
   return (
@@ -24,6 +25,7 @@ const Layout: NextPage = ({ children }) => {
         <main className="px-4 py-2 max-h-full max-w-screen-xl mx-auto">
           {children}
         </main>
+        <Footer />
       </div>
     </>
   )

@@ -5,9 +5,9 @@ import Image from "next/image"
 import TheBodyShopLogo from "public/assets/logos/thebodyshop.png"
 import TailorsoftLogo from "public/assets/logos/tailorsoft.png"
 import SiicoingLogo from "public/assets/logos/siicoing.png"
+import IntaktLogo from "public/assets/logos/intakt.png"
 
 const Companies: NextPage = () => {
-  const companiesHeight = 80;
   const companiesLogos = [
     {
       src: TheBodyShopLogo,
@@ -15,31 +15,42 @@ const Companies: NextPage = () => {
       aspectRatioForHeight: 1.49,
       needName: false,
       marginTop: null,
+      height: 100,
     },
     {
       src: TailorsoftLogo,
       alt: "Tailorsoft",
       aspectRatioForHeight: 2.68,
       needName: false,
-      marginTop: "mt-4",
+      marginTop: "mt-0 md:mt-4",
+      height: 80,
     },
     {
       src: SiicoingLogo,
       alt: "Siicoing",
       aspectRatioForHeight: 1.06,
       needName: true,
+      marginTop: "mt-0 md:mt-2",
+      height: 90,
+    },
+    {
+      src: IntaktLogo,
+      alt: "Intakt",
+      aspectRatioForHeight: 5.91,
+      needName: false,
       marginTop: null,
+      height: 45,
     }
   ]
   return (
-    <div className="flex flex-wrap gap-4 justify-center md:justify-between items-center my-8">
-      {companiesLogos.map(({ src, alt, aspectRatioForHeight, needName, marginTop }) => (
+    <div className="flex flex-col gap-8 justify-between md:flex-row items-center my-8">
+      {companiesLogos.map(({ src, alt, aspectRatioForHeight, needName, marginTop, height }) => (
         <div key={alt} className={`flex flex-col items-center ${marginTop ?? ""}`}>
           <Image
             src={src}
             alt={alt}
-            height={companiesHeight}
-            width={companiesHeight * aspectRatioForHeight}
+            height={height}
+            width={height * aspectRatioForHeight}
             priority
           />
           {needName && (

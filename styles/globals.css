@@ -5,10 +5,10 @@
 @layer base {
   html,
   body {
+    @apply bg-slate-300;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }

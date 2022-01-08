@@ -29,7 +29,7 @@ class MyDocument extends Document {
             }}
           />
         </Head>
-        <body className="overflow-y-scroll">
+        <body className="overflow-y-scroll bg-white">
           <Main />
           <NextScript />
         </body>

@@ -1,7 +1,7 @@
 import { NextPage } from "next"
 import Head from "next/head"
 import Navbar from "components/navbar/navbar"
-import Footer from "components/Footer/footer"
+import Footer from "components/footer/footer"
 
 const Layout: NextPage = ({ children }) => {
   return (

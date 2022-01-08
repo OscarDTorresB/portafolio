@@ -5,7 +5,7 @@
 @layer base {
   html,
   body {
-    @apply bg-slate-300;
+    @apply bg-white;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 1.5;

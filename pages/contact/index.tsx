@@ -19,6 +19,16 @@ const Contact: NextPage = () => {
           </a>
           .
         </p>
+        <p className='text-center my-4 font-bold'>
+          You can also download my resume{' '}
+          <a
+            href='/assets/files/Oscar_Torres_-_Full_Stack_Developer.pdf'
+            className="text-blue-600 hover:text-blue-800"
+            target="_blank"
+          >
+            here
+          </a>
+        </p>
       </div>
     </>
   );

@@ -41,18 +41,18 @@ const SkillsTable: NextPage = () => {
           </tr>
           <tr>
             <td className="text-center px-4 md:px-8 pt-10 pb-4 text-blue-600 font-semibold">
-              Languages I&apos;ve worked with:
+              Technologies that I&apos;ve worked with:
             </td>
             <td className="text-center px-4 md:px-8 pt-10 pb-4 text-blue-600 font-semibold">
-              Languages I&apos;ve worked with:
+              Technologies that I&apos;ve worked with:
             </td>
           </tr>
           <tr className="align-text-top">
             <td className="text-center px-4 md:px-8">
-              Javascript, TypeScript, React, Redux, Next.js, CSS, Sass
+              Javascript, TypeScript, React, Redux, Next.js
             </td>
             <td className="text-center px-4 md:px-8">
-              Node.js, PostgreSQL, Restful APIs
+              Javascript, Node.js, Express
             </td>
           </tr>
           <tr>
@@ -73,7 +73,7 @@ const SkillsTable: NextPage = () => {
                   React Testing Library
                 </li>
                 <li>
-                  ESLint
+                  CSS and SASS
                 </li>
                 <li>
                   MaterialUI
@@ -92,7 +92,7 @@ const SkillsTable: NextPage = () => {
                   Jest
                 </li>
                 <li>
-                  Express
+                  PostgreSQL
                 </li>
                 <li>
                   Firebase

@@ -6,6 +6,8 @@ import TheBodyShopLogo from "public/assets/logos/thebodyshop.png"
 import TailorsoftLogo from "public/assets/logos/tailorsoft.png"
 import SiicoingLogo from "public/assets/logos/siicoing.png"
 import IntaktLogo from "public/assets/logos/intakt.png"
+import EsteeLauderLogo from "public/assets/logos/estee-lauder.png"
+import AgileEngineLogo from "public/assets/logos/agile-engine.png"
 
 const Companies: NextPage = () => {
   const companiesLogos = [
@@ -40,6 +42,22 @@ const Companies: NextPage = () => {
       needName: false,
       marginTop: null,
       height: 45,
+    },
+    {
+      src: EsteeLauderLogo,
+      alt: "Estee Lauder",
+      aspectRatioForHeight: 1,
+      needName: false,
+      marginTop: null,
+      height: 200,
+    },
+    {
+      src: AgileEngineLogo,
+      alt: "Agile Engine",
+      aspectRatioForHeight: 2.26,
+      needName: false,
+      marginTop: null,
+      height: 100,
     }
   ]
   return (

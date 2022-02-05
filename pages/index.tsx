@@ -10,11 +10,15 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Oscar&apos;s Portfolio</title>
+        <title>Oscar&apos;s Portfolio - Front end Engineer</title>
+        <meta name="description" content="Oscar&apos;s Portfolio - Front end engineer" />
+        <link rel="canonical" href="https://oscardtorresb.me" />
+        <meta property="og:title" content="Oscar&apos;s Portfolio" />
+        <meta property="og:description" content="Oscar&apos;s Portfolio - Frontend engineer" />
       </Head>
       <section className="container max-w-full w-max mx-auto mt-20 px-4">
         <h1 className="text-6xl font-semibold">
-          Front-end Developer
+          Front-end Engineer
         </h1>
         <h2 className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent font-medium animate-fade-in-from-left">
           I code beautifully, simple, and performant web applications.
@@ -33,11 +37,11 @@ const Home: NextPage = () => {
           Hi, I&apos;m Oscar. Nice to meet you! 👋
         </h2>
         <p className="text-center max-w-4xl mx-auto">
-          Since the beginning of my journey as a front end developer, I&apos;ve
+          Since the beginning of my journey as a front end engineer, I&apos;ve
           done remote work for agencies, consulted for startups, and collaborated with
           talented people to create products for both, business and consumer use.
           I&apos;m a passionate learner, a curious person and I&apos;m excited to
-          continue to learn and grow as a developer one line of code at a time.
+          continue to learn and grow as a engineer one line of code at a time.
         </p>
       </section>
       <SkillsTable />

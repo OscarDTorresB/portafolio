@@ -1,7 +1,11 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
+import useEmailController from 'internal/hooks/useEmailController';
+import ContactForm from 'components/contact/form';
 
 const Contact: NextPage = () => {
+  const { sendEmail } = useEmailController();
+
   return (
     <>
       <Head>
@@ -17,7 +21,7 @@ const Contact: NextPage = () => {
           <a href="mailto:oscardtorres@hotmail.com" className="text-blue-600 hover:text-blue-800">
             my email address
           </a>
-          .
+          {' '}or use the form below and I will get back to you as soon as possible.
         </p>
         <p className='text-center my-4 font-bold'>
           You can also download my resume{' '}
@@ -29,6 +33,7 @@ const Contact: NextPage = () => {
             here
           </a>
         </p>
+        <ContactForm onSubmit={sendEmail} />
       </div>
     </>
   );

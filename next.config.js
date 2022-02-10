@@ -6,7 +6,7 @@ const ContentSecurityPolicy = `
   style-src 'self' fonts.googleapis.com 'unsafe-inline';
   font-src 'self' fonts.gstatic.com;
   img-src 'self' data: www.googletagmanager.com;
-  connect-src 'self' https://api.emailjs.com/api/v1.0/email/send vitals.vercel-insights.com https://www.google-analytics.com/g/**;
+  connect-src 'self' https://api.emailjs.com/api/v1.0/email/send vitals.vercel-insights.com https://www.google-analytics.com;
 `
 const securityHeaders = [
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP

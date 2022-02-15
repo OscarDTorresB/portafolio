@@ -53,7 +53,7 @@ const ContactForm: NextPage<ContactFormProps> = ({
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="shadow py-2 px-4 md:py-4 md:px-6">
             {isSubmitting && <p>Sending...</p>}
             {isSubmitted && <p>Message sent!</p>}
             <div className="mb-4">
@@ -87,7 +87,7 @@ const ContactForm: NextPage<ContactFormProps> = ({
                 <textarea required disabled={isSubmitting} name="message" id="message" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" onChange={handleChange} value={formData.message} />
             </div>
             <div className="flex items-center justify-between">
-                <button disabled={isSubmitting} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                <button disabled={isSubmitting} className="bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
                     Send
                 </button>
             </div>

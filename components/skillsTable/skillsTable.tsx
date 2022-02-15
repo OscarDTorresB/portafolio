@@ -40,10 +40,10 @@ const SkillsTable: NextPage = () => {
             </td>
           </tr>
           <tr>
-            <td className="text-center px-4 md:px-8 pt-10 pb-4 text-blue-600 font-semibold">
+            <td className="text-center px-4 md:px-8 pt-10 pb-4 text-sky-600 font-semibold">
               Technologies that I&apos;ve worked with:
             </td>
-            <td className="text-center px-4 md:px-8 pt-10 pb-4 text-blue-600 font-semibold">
+            <td className="text-center px-4 md:px-8 pt-10 pb-4 text-sky-600 font-semibold">
               Technologies that I&apos;ve worked with:
             </td>
           </tr>
@@ -56,10 +56,10 @@ const SkillsTable: NextPage = () => {
             </td>
           </tr>
           <tr>
-            <td className="text-center px-4 md:px-8 pt-10 pb-4 text-blue-600 font-semibold">
+            <td className="text-center px-4 md:px-8 pt-10 pb-4 text-sky-600 font-semibold">
               Development Tools:
             </td>
-            <td className="text-center px-4 md:px-8 pt-10 pb-4 text-blue-600 font-semibold">
+            <td className="text-center px-4 md:px-8 pt-10 pb-4 text-sky-600 font-semibold">
               Development Tools:
             </td>
           </tr>

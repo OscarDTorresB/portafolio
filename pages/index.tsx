@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         <h1 className="text-6xl font-semibold">
           Front-end Engineer
         </h1>
-        <h2 className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent font-medium animate-fade-in-from-left">
+        <h2 className="bg-gradient-to-r from-sky-600 to-sky-800 bg-clip-text text-transparent font-medium animate-fade-in-from-left">
           I code beautifully, simple, and performant web applications.
         </h2>
       </section>

@@ -26,7 +26,7 @@ const Contact: NextPage = () => {
         <p className='text-center my-4 font-bold'>
           You can also download my resume{' '}
           <a
-            href='/assets/files/Oscar_Torres_-_Full_Stack_Developer.pdf'
+            href='/assets/files/Oscar_Torres_-_Software_Engineer.pdf'
             className="text-sky-600 hover:text-sky-800"
             target="_blank"
           >

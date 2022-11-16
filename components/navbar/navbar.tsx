@@ -19,8 +19,7 @@ const Navbar: NextPage = () => {
       <nav className="max-w-screen-xl mx-auto">
         <div className="flex flex-col md:flex-row md:justify-between items-center">
           <div className="flex items-center">
-            <Link href="/">
-              <a className="mt-1">
+            <Link href="/" className="mt-1">
                 <Image
                   src={LogoPng}
                   alt="Personal logo"
@@ -29,17 +28,18 @@ const Navbar: NextPage = () => {
                   height={60}
                   priority
                 />
-              </a>
             </Link>
           </div>
           <div className="flex items-center gap-4">
             {routes.map((route) => (
-              <Link href={route.href} key={route.name}>
-                <a className={`group transition-colors ease-in-out duration-500 bg-transparent border-2 border-sky-300 px-4 py-2 rounded-full hover:bg-sky-500 ${route.active ? 'bg-sky-100' : ''}`}>
-                  <span className={`transition-colors ease-in-out duration-500 bg-clip-text text-transparent group-hover:bg-white ${route.active ? 'bg-sky-600' : 'bg-gray-600'}`}>
-                    {route.name}
-                  </span>
-                </a>
+              <Link
+                href={route.href}
+                key={route.name}
+                className={`group transition-colors ease-in-out duration-500 bg-transparent border-2 border-sky-300 px-4 py-2 rounded-full hover:bg-sky-500 ${route.active ? 'bg-sky-100' : ''}`}
+              >
+                <span className={`transition-colors ease-in-out duration-500 bg-clip-text text-transparent group-hover:bg-white ${route.active ? 'bg-sky-600' : 'bg-gray-600'}`}>
+                  {route.name}
+                </span>
               </Link>
             ))}
           </div>

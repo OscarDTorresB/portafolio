@@ -7,4 +7,3 @@ Host: https://oscardtorresb.me
 
 # Sitemaps
 Sitemap: https://oscardtorresb.me/sitemap.xml
-Sitemap: https://oscardtorresb.me/sitemap-0.xml

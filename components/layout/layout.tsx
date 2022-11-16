@@ -2,8 +2,9 @@ import { NextPage } from "next"
 import Head from "next/head"
 import Navbar from "components/navbar/navbar"
 import Footer from "components/footer/footer"
+import { ReactNode } from "react"
 
-const Layout: NextPage = ({ children }) => {
+const Layout: NextPage<{ children: ReactNode }> = ({ children }) => {
   return (
     <>
       <Head>

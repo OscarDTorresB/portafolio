@@ -1,5 +1,5 @@
 import { NextPage } from "next"
-import Image from "next/image"
+import Image from "next/legacy/image";
 
 // Companies logos
 import TheBodyShopLogo from "public/assets/logos/thebodyshop.png"

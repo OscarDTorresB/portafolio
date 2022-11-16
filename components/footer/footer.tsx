@@ -1,5 +1,5 @@
 import { NextPage } from 'next'
-import Image from 'next/image'
+import Image from "next/legacy/image";
 import PersonalLogoWhite from 'public/personal-logo-white.png'
 
 const Footer: NextPage = () => {

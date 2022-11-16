@@ -1,6 +1,6 @@
 import { NextPage } from 'next'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from "next/legacy/image";
 import LogoPng from 'public/personal-logo.png';
 import { useRouter } from 'next/router';
 

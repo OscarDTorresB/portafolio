@@ -2,7 +2,7 @@ import Companies from 'components/companies/companies'
 import SkillsTable from 'components/skillsTable/skillsTable'
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from "next/legacy/image";
 import SystemsImage from 'public/assets/hero.svg'
 
 

@@ -8,9 +8,27 @@ import SiicoingLogo from "public/assets/logos/siicoing.png"
 import IntaktLogo from "public/assets/logos/intakt.png"
 import EsteeLauderLogo from "public/assets/logos/estee-lauder.png"
 import AgileEngineLogo from "public/assets/logos/agile-engine.png"
+import OpisDowJonesLogo from "public/assets/logos/opis-dow-jones.png"
+import EpamLogo from "public/assets/logos/epam.png"
 
 const Companies: NextPage = () => {
   const companiesLogos = [
+    {
+      src: OpisDowJonesLogo,
+      alt: "OPIS, a Dow Jones Company",
+      aspectRatioForHeight: 2.03,
+      needName: false,
+      marginTop: null,
+      height: 90,
+    },
+    {
+      src: EsteeLauderLogo,
+      alt: "Estee Lauder",
+      aspectRatioForHeight: 1,
+      needName: false,
+      marginTop: null,
+      height: 200,
+    },
     {
       src: TheBodyShopLogo,
       alt: "The Body Shop",
@@ -18,6 +36,14 @@ const Companies: NextPage = () => {
       needName: false,
       marginTop: null,
       height: 100,
+    },
+    {
+      src: EpamLogo,
+      alt: "EPAM",
+      aspectRatioForHeight: 2.83,
+      needName: false,
+      marginTop: null,
+      height: 60,
     },
     {
       src: TailorsoftLogo,
@@ -33,7 +59,7 @@ const Companies: NextPage = () => {
       aspectRatioForHeight: 1.06,
       needName: true,
       marginTop: "mt-0 md:mt-2",
-      height: 90,
+      height: 80,
     },
     {
       src: IntaktLogo,
@@ -42,14 +68,6 @@ const Companies: NextPage = () => {
       needName: false,
       marginTop: null,
       height: 45,
-    },
-    {
-      src: EsteeLauderLogo,
-      alt: "Estee Lauder",
-      aspectRatioForHeight: 1,
-      needName: false,
-      marginTop: null,
-      height: 200,
     },
     {
       src: AgileEngineLogo,
